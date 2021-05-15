@@ -464,7 +464,7 @@ const u16 gForestPage4[] =
 
 const u16 gForestPage5[] =
 {
-	SPECIES_PIDGEY,
+	SPECIES_SKROW,
 	SPECIES_PIDGEOTTO,
 	SPECIES_PIDGEOT,
 };

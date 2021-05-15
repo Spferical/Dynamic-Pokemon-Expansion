@@ -196,7 +196,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 256,
 		.trainerOffset = 65534,
 	},
-	[NATIONAL_DEX_PIDGEY] =
+	[NATIONAL_DEX_SKROW] =
 	{
 		.categoryName = {_T, _i, _n, _y, _SPACE, _B, _i, _r, _d, _END, _SPACE, _SPACE},
 		.height = 3,

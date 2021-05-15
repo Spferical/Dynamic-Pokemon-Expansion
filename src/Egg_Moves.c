@@ -60,7 +60,7 @@ const u16 gEggMoves[] =
 		MOVE_AURASPHERE,
 		MOVE_LIFEDEW),
 
-	egg_moves(PIDGEY,
+	egg_moves(SKROW,
 		MOVE_PURSUIT,
 		MOVE_FEINTATTACK,
 		MOVE_FORESIGHT,

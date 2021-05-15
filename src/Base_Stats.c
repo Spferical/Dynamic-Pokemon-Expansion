@@ -506,15 +506,15 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 
-	[SPECIES_PIDGEY] =
+	[SPECIES_SKROW] =
 	{
-		.baseHP 		= 40,
-		.baseAttack 	= 45,
-		.baseDefense 	= 40,
-		.baseSpAttack 	= 35,
+		.baseHP 		= 35,
+		.baseAttack 	= 50,
+		.baseDefense 	= 35,
+		.baseSpAttack 	= 55,
 		.baseSpDefense 	= 35,
-		.baseSpeed 		= 56,
-		.type1 = TYPE_NORMAL,
+		.baseSpeed 		= 60,
+		.type1 = TYPE_FLYING,
 		.type2 = TYPE_FLYING,
 		.catchRate = 255,
 		.expYield = 55,
@@ -532,10 +532,10 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_SLOW,
 		.eggGroup1 = EGG_GROUP_FLYING,
 		.eggGroup2 = EGG_GROUP_FLYING,
-		.ability1 = ABILITY_KEENEYE,
-		.ability2 = ABILITY_TANGLEDFEET,
+		.ability1 = ABILITY_UNNERVE,
+		.ability2 = ABILITY_BIGPECKS,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_BIGPECKS,
+		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
 
