@@ -49,7 +49,7 @@ def DataBuilder(directory: str, numEntries: int, outputFile: str, dataType: str)
             print('Ignoring file: "{}"\nNot valid TM file.'.format(filePath))
             continue  # Don't process this file if not proper TM file
 
-        with open(filePath, 'r') as file:
+        with open(filePath, 'r', encoding='cp1252') as file:
             for i, line in enumerate(file):
                 if ':' not in line:  # Aka not the first line
                     try:
